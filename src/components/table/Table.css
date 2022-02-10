@@ -1,52 +1,26 @@
-.max-population-vehicle_table {
-  display: flex;
-  flex-direction: column;
-
-  height: 28vh;
-  width: 92vw;
+/*      TABLE                 */
+table {
+  text-align: center;
+  font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 60vw;
   margin: 1rem auto;
-  font-size: 1.1rem;
-  font-weight: bold;
-  background: #32383e;
-  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
-    rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
-    rgb(255, 85, 85) 0px 0px 0px 15px;
+  color: #1c1e22;
 }
 
-.max-population-vehicle_table:hover {
-  background: #1c1e22;
-  cursor: pointer;
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  color: #1c1e22;
 }
 
-.pad {
-  padding-left: 1rem;
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
 
-.cell {
-  display: flex;
-  align-items: center;
-  width: 42%;
-  border: 1px solid #555bff;
+table tr:hover {
+  background-color: #ddd;
 }
-
-.cell.grow {
-  width: auto;
-  flex-grow: 1;
-}
-
-.row-center {
-  display: flex;
-  justify-content: center;
-  width: 50%;
-}
-.row-center:first-child {
-  border-right: 1px solid #555bff;
-}
-
-.row-space {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-
-  flex-grow: 1;
-}
+/* ----------------------*/

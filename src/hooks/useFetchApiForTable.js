@@ -29,11 +29,6 @@ export const useFetchApiForTable = () => {
           return fetchedJobs.json();
         })
       );
-      console.log(
-        '🚀 ~ file: useFetchApiForTable.js ~ line 32 ~ fetchMaxSalaryByJob ~ maxJobs',
-        maxJobs
-      );
-
       //   const fetchedMaxJobs = maxJobs
       //     .filter((p) => p.status === 'fulfilled')
       //     .map((job) => job.value.data.results[0]);
