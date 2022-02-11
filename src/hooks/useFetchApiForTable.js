@@ -18,7 +18,9 @@ export const useFetchApiForTable = () => {
         fetchedJobs
       );
       return data;
-    } catch (error) {}
+    } catch (error) {
+      throw Error(error);
+    }
   };
 
   const fetchMaxSalaryByJob = async () => {
@@ -29,9 +31,6 @@ export const useFetchApiForTable = () => {
           return fetchedJobs.json();
         })
       );
-      //   const fetchedMaxJobs = maxJobs
-      //     .filter((p) => p.status === 'fulfilled')
-      //     .map((job) => job.value.data.results[0]);
 
       return maxJobs;
     } catch (error) {

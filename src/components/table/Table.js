@@ -33,8 +33,10 @@ const Table = () => {
       return (
         <tr key={i}>
           <td style={{ color: 'black' }}>{job.job}</td>
-          <td>{job.max}</td>
           <td>{job.avg}</td>
+          <td>
+            {job.name} - {job.max}
+          </td>
         </tr>
       );
     });

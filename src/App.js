@@ -1,4 +1,6 @@
 import Table from './components/table/Table';
+import BarChart from './components/bar-chart/BarChart';
+
 import './App.css';
 
 function App() {
@@ -7,6 +9,7 @@ function App() {
       <header>
         <h1 className="center header">Hallo 015 </h1>
         <Table />
+        <BarChart />
       </header>
     </>
   );
