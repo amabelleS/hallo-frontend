@@ -19,7 +19,7 @@ const Table = () => {
   const renderTableHeader = () => {
     const headers = [
       'Job',
-      'Avg Salary',
+      'Avg salary',
       'Person name with the highest salary in this job',
     ];
     return headers.map((job, i) => {

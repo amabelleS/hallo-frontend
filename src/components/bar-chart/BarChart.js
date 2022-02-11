@@ -8,18 +8,13 @@ const BarChart = () => {
   const jobsPopularity = useFetchPopularity();
 
   const jobsToChart = jobsPopularity.map((job, i) => {
-    let popularityLogScale = Math.log10(job.popularity);
     return {
       name: job.job,
       popularity: job.popularity,
-      popularityLogScale,
       colors: __COLORS__[i],
     };
   });
-  console.log(
-    '🚀 ~ file: BarChart.js ~ line 19 ~ jobsToChart ~ jobsToChart',
-    jobsToChart
-  );
+
   return (
     <div className="container">
       <div className="main">
@@ -33,8 +28,7 @@ const BarChart = () => {
                 <div
                   className="bar"
                   style={{
-                    height: job.popularity * 3,
-                    // height: job.popularityLogScale * 111,
+                    height: job.popularity * 2.4,
                     backgroundImage: `linear-gradient(
                         to bottom,
                         ${job.colors[0]},

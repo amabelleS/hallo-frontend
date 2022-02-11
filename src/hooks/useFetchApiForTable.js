@@ -11,12 +11,10 @@ export const useFetchApiForTable = () => {
     try {
       const response = await fetch(`${baseURL}avg`);
       const data = await response.json();
+
       const fetchedJobs = data.map((job) => job.job);
       setJobes(fetchedJobs);
-      console.log(
-        '🚀 ~ file: useFetchApiForTable.js ~ line 20 ~ fetchAvgSalary ~ fetchedJobs',
-        fetchedJobs
-      );
+
       return data;
     } catch (error) {
       throw Error(error);

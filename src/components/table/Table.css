@@ -2,9 +2,9 @@ table {
   text-align: center;
   font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  border: 3px solid yellow;
+  border: 3px solid rgb(255, 217, 19);
 
-  height: 42vh;
+  height: 50vh;
   width: 92vw;
   margin: 1rem auto;
 
@@ -20,13 +20,13 @@ table:hover {
 }
 
 table th {
-  border: 1px solid yellow;
+  border: 1px solid rgb(255, 217, 19);
   background: #bbe9db;
   padding: 8px;
 }
 
 table td {
-  border: 1px solid #ddd;
+  border: 1px solid rgb(255, 85, 85);
   padding: 8px;
 }
 

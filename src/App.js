@@ -1,5 +1,5 @@
 import Table from './components/table/Table';
-import BarChart from './components/bar-chart/BarChart';
+import BarChart from './components/bar-chart';
 
 import './App.css';
 

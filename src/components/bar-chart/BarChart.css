@@ -3,10 +3,9 @@
   flex-direction: column;
   justify-content: flex-end;
 
-  height: 33vh;
+  height: 30vh;
   width: 92vw;
   margin: 1.3rem auto;
-  /* padding: 2rem; */
 
   background: #32383e;
   box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
@@ -60,7 +59,6 @@
   .bar,
   .name {
     width: 2.4rem;
-    /* font-size: 0.6rem; */
   }
 }
 
