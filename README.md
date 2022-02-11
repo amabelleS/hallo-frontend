@@ -1,6 +1,6 @@
 # React app
 
-Displaying table and bar-chart. Connects to a node.js server.
+Displaying a table and bar-chart with information about salaries and differnt jobs. Connects to a node.js server.
 
 ## Available Scripts
 
