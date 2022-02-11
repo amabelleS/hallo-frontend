@@ -4,8 +4,9 @@ table {
   font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   border: 3px solid #ddd;
-  width: 60vw;
+  width: 88vw;
   margin: 1rem auto;
+  padding: 3rem;
   color: #1c1e22;
 }
 
