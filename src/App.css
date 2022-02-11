@@ -13,9 +13,9 @@ html {
 
 body {
   margin: 0;
-  background: white;
-  /* background: #1c1e22; */
+  background: #1c1e22;
   height: 100%;
+  overflow-y: auto;
 }
 
 .center {
@@ -26,6 +26,13 @@ body {
 }
 
 .header {
-  color: #ffe300;
-  padding: 1rem;
+  color: #8ef6e4;
+  margin: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }

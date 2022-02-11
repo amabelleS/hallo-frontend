@@ -29,10 +29,9 @@ const Table = () => {
 
   const renderTableRows = () => {
     return tableInfo.map((job, i) => {
-      //  const { job, max, avg } = job;
       return (
         <tr key={i}>
-          <td style={{ color: 'black' }}>{job.job}</td>
+          <td>{job.job}</td>
           <td>{job.avg}</td>
           <td>
             {job.name} - {job.max}

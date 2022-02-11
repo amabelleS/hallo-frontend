@@ -8,9 +8,11 @@ function App() {
     <>
       <header>
         <h1 className="center header">Hallo 015 </h1>
+      </header>
+      <main>
         <Table />
         <BarChart />
-      </header>
+      </main>
     </>
   );
 }

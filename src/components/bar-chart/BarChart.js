@@ -33,7 +33,7 @@ const BarChart = () => {
                 <div
                   className="bar"
                   style={{
-                    height: job.popularity * 4.2,
+                    height: job.popularity * 3,
                     // height: job.popularityLogScale * 111,
                     backgroundImage: `linear-gradient(
                         to bottom,
@@ -42,7 +42,7 @@ const BarChart = () => {
                       )`,
                   }}
                 ></div>
-                <div className="name">{job.name}</div>
+                <p className="name center">{job.name}</p>
               </div>
             );
           })}
